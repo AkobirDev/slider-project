@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .imgBox {
+        display: flex;
+        width: 400px;
+        align-items: center;
+        height: 400px;
+        transform: translateX(0px);
+      }
+      .imgBox img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imgBox">
+        <img src="../../bootstrap/images/write.png" id="last_clone" alt="" />
+        <img src="../../bootstrap/images/rev.png" alt="" />
+        <img src="../../bootstrap/images/rev2.png" alt="" />
+        <img src="../../bootstrap/images/rev3.png" alt="" />
+        <img src="../../bootstrap/images/head.png" alt="" />
+        <img src="../../bootstrap/images/write.png" alt="" />
+        <img src="../../bootstrap/images/rev.png" id="first_clone" alt="" />
+      </div>
+      <div class="buttons">
+        <button class="prev">Prev</button>
+        <button class="Next">Next</button>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
